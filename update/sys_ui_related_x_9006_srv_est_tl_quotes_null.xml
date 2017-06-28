@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_related sys_domain="global" table="x_9006_srv_est_tl_quotes" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Quotes - Default view" name="x_9006_srv_est_tl_quotes" related_list="NULL" sys_domain="global" view="Default view">6b88d0870fa332009a954e9ce1050e59</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_9006_srv_est_tl_work_item.quote</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 15:11:31</sys_created_on>
+            <sys_id>e788d0870fa332009a954e9ce1050e5a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 15:11:31</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Quotes - Default view</calculated_name>
+            <filter/>
+            <name>x_9006_srv_est_tl_quotes</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 15:11:31</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6b88d0870fa332009a954e9ce1050e59</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Quotes - Default view</sys_name>
+            <sys_package display_value="Services Estimation Tool" source="x_9006_srv_est_tl">033988030f2332009a954e9ce1050e3e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Services Estimation Tool">033988030f2332009a954e9ce1050e3e</sys_scope>
+            <sys_update_name>sys_ui_related_x_9006_srv_est_tl_quotes_null</sys_update_name>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 15:11:31</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

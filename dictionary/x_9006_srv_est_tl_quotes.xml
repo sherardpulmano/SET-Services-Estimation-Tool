@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Quotes" max_length="40" name="x_9006_srv_est_tl_quotes" type="collection">
+        <element label="Acceptance Date" max_length="40" name="acceptance_date" type="glide_date"/>
+        <element label="Account" max_length="32" name="account" reference="x_9006_srv_est_tl_accounts" type="reference"/>
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Rate Type" max_length="40" name="rate_type" type="string">
+            <choice>
+                <element label="Top" sequence="0" value="225"/>
+                <element label="Blended" sequence="1" value="200"/>
+                <element label="Normal" sequence="2" value="175"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;&#13;&#10;&#9;var total_cost = current.total_hours * current.rate_type;&#13;&#10;&#9;return parseFloat(total_cost);  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Services total" max_length="20" name="services_total" type="currency" virtual="true"/>
+        <element choice="3" default="Draft" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element label="Draft" sequence="0" value="Draft"/>
+                <element label="Submitted" sequence="1" value="Submitted"/>
+                <element label="Accepted" sequence="2" value="Accepted"/>
+            </choice>
+        </element>
+        <element label="Submission Date" max_length="40" name="submission_date" type="glide_date"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;var q = 'quote='+current.sys_id;&#13;&#10;&#9;var hours_total = 0;&#13;&#10;&#9;var gr = new GlideRecord(&quot;x_9006_srv_est_tl_work_item&quot;);&#13;&#10;gr.addEncodedQuery(q);&#13;&#10;gr.query();&#13;&#10;while (gr.next()) {&#13;&#10;   hours_total = hours_total + gr.hours;&#13;&#10;}&#13;&#10;&#9;return hours_total;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Total Hours" max_length="40" name="total_hours" type="integer" virtual="true"/>
+        <index name="index">
+            <element name="account"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_9006_srv_est_tl_work_type" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>work_item</element>
+            <list_id display_value="x_9006_srv_est_tl_work_type" element="NULL" name="x_9006_srv_est_tl_work_type" parent="NULL" relationship="NULL" sys_domain="global" view="55bd17400f0032009a954e9ce1050e2c">ad18dc070fa332009a954e9ce1050ed7</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 15:09:28</sys_created_on>
+            <sys_id>2518dc070fa332009a954e9ce1050ed8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 15:09:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>work_type</element>
+            <list_id display_value="x_9006_srv_est_tl_work_type" element="NULL" name="x_9006_srv_est_tl_work_type" parent="NULL" relationship="NULL" sys_domain="global" view="55bd17400f0032009a954e9ce1050e2c">ad18dc070fa332009a954e9ce1050ed7</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 15:09:28</sys_created_on>
+            <sys_id>a518dc070fa332009a954e9ce1050ed8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 15:09:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>work_tool</element>
+            <list_id display_value="x_9006_srv_est_tl_work_type" element="NULL" name="x_9006_srv_est_tl_work_type" parent="NULL" relationship="NULL" sys_domain="global" view="55bd17400f0032009a954e9ce1050e2c">ad18dc070fa332009a954e9ce1050ed7</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 15:09:28</sys_created_on>
+            <sys_id>2918dc070fa332009a954e9ce1050ed8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 15:09:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 15:09:28</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad18dc070fa332009a954e9ce1050ed7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_9006_srv_est_tl_work_type</sys_name>
+            <sys_package display_value="Services Estimation Tool" source="x_9006_srv_est_tl">033988030f2332009a954e9ce1050e3e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Services Estimation Tool">033988030f2332009a954e9ce1050e3e</sys_scope>
+            <sys_update_name>sys_ui_list_x_9006_srv_est_tl_work_type_sys_ref_list</sys_update_name>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 15:09:28</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">55bd17400f0032009a954e9ce1050e2c</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

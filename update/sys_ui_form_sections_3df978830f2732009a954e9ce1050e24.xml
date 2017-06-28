@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="3df978830f2732009a954e9ce1050e24" sys_domain="global" table="x_9006_srv_est_tl_quotes" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 17:37:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f5f978830f2732009a954e9ce1050e25</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_9006_srv_est_tl_quotes" name="x_9006_srv_est_tl_quotes" sys_domain="global" view="Default view">3df978830f2732009a954e9ce1050e24</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_9006_srv_est_tl_quotes" sys_domain="global" view="Default view">88d4dc830fa332009a954e9ce1050e8e</sys_ui_section>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 17:37:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 17:37:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>71f978830f2732009a954e9ce1050e27</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_9006_srv_est_tl_quotes" name="x_9006_srv_est_tl_quotes" sys_domain="global" view="Default view">3df978830f2732009a954e9ce1050e24</sys_ui_form>
+            <sys_ui_section caption="Calculations" display_value="Calculations" name="x_9006_srv_est_tl_quotes" sys_domain="global" view="Default view">31f978830f2732009a954e9ce1050e26</sys_ui_section>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 17:37:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_9006_srv_est_tl_quotes</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 17:37:29</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3df978830f2732009a954e9ce1050e24</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_9006_srv_est_tl_quotes</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Services Estimation Tool" source="x_9006_srv_est_tl">033988030f2332009a954e9ce1050e3e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Services Estimation Tool">033988030f2332009a954e9ce1050e3e</sys_scope>
+            <sys_update_name>sys_ui_form_sections_3df978830f2732009a954e9ce1050e24</sys_update_name>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 17:37:29</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

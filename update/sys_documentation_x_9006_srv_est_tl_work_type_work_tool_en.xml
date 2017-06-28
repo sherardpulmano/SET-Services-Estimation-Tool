@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="work_tool" label="Work Tool" language="en" table="x_9006_srv_est_tl_work_type">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>work_tool</element>
+            <help/>
+            <hint/>
+            <label>Work Tool</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <plural>Work Tools</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 14:28:58</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>60de008f0f6332009a954e9ce1050e4e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Work Tool</sys_name>
+            <sys_package display_value="Services Estimation Tool" source="x_9006_srv_est_tl">033988030f2332009a954e9ce1050e3e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Services Estimation Tool">033988030f2332009a954e9ce1050e3e</sys_scope>
+            <sys_update_name>sys_documentation_x_9006_srv_est_tl_work_type_work_tool_en</sys_update_name>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 14:28:58</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Work Type" max_length="40" name="x_9006_srv_est_tl_work_type" type="collection">
+        <element label="Estimation Hours" max_length="40" name="hours" type="integer"/>
+        <element choice="1" label="Project Phase" max_length="40" name="project_phase" type="choice">
+            <choice>
+                <element label="1-Plan" sequence="0" value="1"/>
+                <element label="2-Design" sequence="1" value="2"/>
+                <element label="3-Develop" sequence="2" value="3"/>
+                <element label="4-Validate" sequence="3" value="4"/>
+                <element label="5-Deploy" sequence="4" value="5"/>
+                <element label="6-Deliverables" sequence="5" value="6"/>
+            </choice>
+        </element>
+        <element label="Work Description" max_length="4000" name="work_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" dependent="work_type" dependent_on_field="work_type" display="true" label="Work Item" max_length="120" name="work_item" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Incident Management" label="Configure Application" sequence="0" value="Configure Application"/>
+                <element dependent_value="Knowledge Management" label="Configure Application" sequence="0" value="Configure Application"/>
+                <element dependent_value="Configuration Management" label="Configure Application" sequence="0" value="Configure Application"/>
+                <element dependent_value="Discovery" label="Configure Application" sequence="0" value="Configure Application"/>
+                <element dependent_value="Problem Management" label="Configure Application" sequence="0" value="Configure Application"/>
+                <element dependent_value="Change Management" label="Configure Application" sequence="0" value="Configure Application"/>
+                <element dependent_value="Core Platform" label="Core Configurations" sequence="0" value="Core Configurations"/>
+                <element dependent_value="Problem Management" label="Custom" sequence="0" value="Custom"/>
+                <element dependent_value="Incident Management" label="Custom" sequence="0" value="Custom"/>
+                <element dependent_value="Application Development" label="Custom" sequence="0" value="Custom"/>
+                <element dependent_value="Discovery" label="Custom" sequence="0" value="Custom"/>
+                <element dependent_value="Configuration Management" label="Custom" sequence="0" value="Custom"/>
+                <element dependent_value="Knowledge Management" label="Custom" sequence="0" value="Custom"/>
+                <element dependent_value="Change Management" label="Custom" sequence="0" value="Custom"/>
+                <element dependent_value="Request Management" label="Custom" sequence="0" value="Custom"/>
+                <element dependent_value="Request Management" label="Requirements and Design Workshop" sequence="0" value="Requirements and Design Workshop"/>
+                <element dependent_value="Request Management" label="Basic Item Creation" sequence="1" value="Basic Item Creation"/>
+                <element dependent_value="Configuration Management" label="Configure CMDB Health Dashboard" sequence="1" value="Configure CMDB Health Dashboard"/>
+                <element dependent_value="Discovery" label="Configure Discovery Dashboard" sequence="1" value="Configure Discovery Dashboard"/>
+                <element dependent_value="Core Platform" label="Enable/Configure Mobile applications" sequence="1" value="Enable/Configure Mobile applications"/>
+                <element dependent_value="Knowledge Management" label="KB Integration Import Source" sequence="1" value="KB Integration Import Source"/>
+                <element dependent_value="Incident Management" label="Requirements and Design Workshop" sequence="1" value="Requirements and Design Workshop"/>
+                <element dependent_value="Core Platform" label="Requirements and Design Workshop" sequence="1" value="Requirements and Design Workshop"/>
+                <element dependent_value="Knowledge Management" label="Requirements and Design Workshop" sequence="1" value="Requirements and Design Workshop"/>
+                <element dependent_value="Configuration Management" label="Requirements and Design Workshop" sequence="1" value="Requirements and Design Workshop"/>
+                <element dependent_value="Discovery" label="Requirements and Design Workshop" sequence="1" value="Requirements and Design Workshop"/>
+                <element dependent_value="Problem Management" label="Requirements and Design Workshop" sequence="1" value="Requirements and Design Workshop"/>
+                <element dependent_value="Change Management" label="Requirements and Design Workshop" sequence="1" value="Requirements and Design Workshop"/>
+                <element dependent_value="Configuration Management" label="CMDB Integration Import Source" sequence="2" value="CMDB Integration Import Source"/>
+                <element dependent_value="Request Management" label="Incident Self Service Configuration" sequence="2" value="Incident Self Service Configuration"/>
+                <element dependent_value="Core Platform" label="LDAP/AD Integration" sequence="2" value="LDAP/AD Integration"/>
+                <element dependent_value="Core Platform" label="MID Server Installations" sequence="3" value="MID Server Installations"/>
+                <element dependent_value="Core Platform" label="Organizational Data Load" sequence="4" value="Organizational Data Load"/>
+            </choice>
+        </element>
+        <element choice="1" default="ServiceNow" label="Work Tool" max_length="40" name="work_tool" type="choice">
+            <choice>
+                <element label="ServiceNow" sequence="0" value="ServiceNow"/>
+                <element label="BMC" sequence="1" value="BMC"/>
+            </choice>
+        </element>
+        <element choice="1" dependent="work_tool" dependent_on_field="work_tool" label="Work Type" max_length="40" name="work_type" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="ServiceNow" label="Application Development" sequence="0" value="Application Development"/>
+                <element dependent_value="ServiceNow" label="Change Management" sequence="1" value="Change Management"/>
+                <element dependent_value="ServiceNow" label="Configuration Management" sequence="2" value="Configuration Management"/>
+                <element dependent_value="ServiceNow" label="Core Platform" sequence="3" value="Core Platform"/>
+                <element dependent_value="ServiceNow" label="Discovery" sequence="4" value="Discovery"/>
+                <element dependent_value="ServiceNow" label="Incident Management" sequence="5" value="Incident Management"/>
+                <element dependent_value="ServiceNow" label="Knowledge Management" sequence="6" value="Knowledge Management"/>
+                <element dependent_value="ServiceNow" label="Problem Management" sequence="7" value="Problem Management"/>
+                <element dependent_value="ServiceNow" label="Request Management" sequence="8" value="Request Management"/>
+            </choice>
+        </element>
+    </element>
+</database>

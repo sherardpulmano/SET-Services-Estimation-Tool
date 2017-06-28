@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="work_item" table="x_9006_srv_est_tl_work_type" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Incident Management</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Configure Application</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>0</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 17:08:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2b63300f0fe332009a954e9ce1050ea2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 17:08:56</sys_updated_on>
+            <value>Configure Application</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Knowledge Management</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Configure Application</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>0</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 17:10:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>43a3f80f0fe332009a954e9ce1050e28</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 17:10:00</sys_updated_on>
+            <value>Configure Application</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Configuration Management</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Configure Application</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>0</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 17:04:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4752b4cb0fe332009a954e9ce1050e14</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 17:04:15</sys_updated_on>
+            <value>Configure Application</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Discovery</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Configure Application</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>0</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 17:05:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9392f00f0fe332009a954e9ce1050eb5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 17:05:22</sys_updated_on>
+            <value>Configure Application</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Problem Management</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Configure Application</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>0</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 17:11:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a9147c0f0fe332009a954e9ce1050e1c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 17:11:48</sys_updated_on>
+            <value>Configure Application</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Change Management</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Configure Application</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>0</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 17:02:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e5f174cb0fe332009a954e9ce1050ea6</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 19:18:07</sys_updated_on>
+            <value>Configure Application</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Core Platform</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Core Configurations</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>0</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 14:42:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8ad1580f0f6332009a954e9ce1050e2a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 16:57:37</sys_updated_on>
+            <value>Core Configurations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Problem Management</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Custom</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>0</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 19:19:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0061990b0f6732009a954e9ce1050e65</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 19:19:46</sys_updated_on>
+            <value>Custom</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Incident Management</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Custom</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>0</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 19:19:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>32415dc70f6732009a954e9ce1050e1b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 19:19:24</sys_updated_on>
+            <value>Custom</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Application Development</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Custom</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>0</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 19:18:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5c21190b0f6732009a954e9ce1050eac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 19:18:42</sys_updated_on>
+            <value>Custom</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Discovery</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Custom</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>0</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 19:19:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6b311dc70f6732009a954e9ce1050e43</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 19:19:11</sys_updated_on>
+            <value>Custom</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Configuration Management</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Custom</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>0</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 19:19:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6d31990b0f6732009a954e9ce1050e5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 19:19:03</sys_updated_on>
+            <value>Custom</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Knowledge Management</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Custom</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>0</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 19:19:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>705155c70f6732009a954e9ce1050ede</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 19:19:32</sys_updated_on>
+            <value>Custom</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Change Management</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Custom</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>0</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 19:18:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>832151c70f6732009a954e9ce1050e9c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 19:18:52</sys_updated_on>
+            <value>Custom</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Request Management</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Custom</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>0</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 19:19:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8661d98f0f2732009a954e9ce1050ee9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 19:19:53</sys_updated_on>
+            <value>Custom</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Request Management</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Requirements and Design Workshop</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>0</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 18:11:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>73a18d4b0f2732009a954e9ce1050e17</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 18:14:23</sys_updated_on>
+            <value>Requirements and Design Workshop</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Request Management</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Basic Item Creation</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>1</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 18:14:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5a624dcb0f2732009a954e9ce1050e08</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 18:14:23</sys_updated_on>
+            <value>Basic Item Creation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Configuration Management</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Configure CMDB Health Dashboard</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>1</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 17:04:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8352b4cb0fe332009a954e9ce1050e15</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 17:04:15</sys_updated_on>
+            <value>Configure CMDB Health Dashboard</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Discovery</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Configure Discovery Dashboard</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>1</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 17:05:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>df92f00f0fe332009a954e9ce1050eb5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 17:05:22</sys_updated_on>
+            <value>Configure Discovery Dashboard</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Core Platform</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Enable/Configure Mobile applications</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>1</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 17:14:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7db4f04f0fe332009a954e9ce1050e9f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 17:14:32</sys_updated_on>
+            <value>Enable/Configure Mobile applications</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Knowledge Management</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>KB Integration Import Source</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>1</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 17:10:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8fa3f80f0fe332009a954e9ce1050e28</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 17:10:00</sys_updated_on>
+            <value>KB Integration Import Source</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Incident Management</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Requirements and Design Workshop</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>1</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 18:09:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>09518d4b0f2732009a954e9ce1050e1b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 18:09:40</sys_updated_on>
+            <value>Requirements and Design Workshop</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Core Platform</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Requirements and Design Workshop</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>1</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 18:12:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>151205cb0f2732009a954e9ce1050e9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 18:12:56</sys_updated_on>
+            <value>Requirements and Design Workshop</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Knowledge Management</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Requirements and Design Workshop</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>1</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 18:09:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1b51c1cb0f2732009a954e9ce1050e24</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 18:09:48</sys_updated_on>
+            <value>Requirements and Design Workshop</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Configuration Management</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Requirements and Design Workshop</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>1</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 18:09:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ae418d4b0f2732009a954e9ce1050e10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 18:09:29</sys_updated_on>
+            <value>Requirements and Design Workshop</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Discovery</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Requirements and Design Workshop</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>1</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 18:12:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d3024dcb0f2732009a954e9ce1050e00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 18:12:49</sys_updated_on>
+            <value>Requirements and Design Workshop</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Problem Management</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Requirements and Design Workshop</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>1</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 18:10:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d871cd8b0f2732009a954e9ce1050e4d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 18:10:09</sys_updated_on>
+            <value>Requirements and Design Workshop</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Change Management</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Requirements and Design Workshop</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>1</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 18:08:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e1218d8b0f2732009a954e9ce1050ed4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 18:08:52</sys_updated_on>
+            <value>Requirements and Design Workshop</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Configuration Management</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CMDB Integration Import Source</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>2</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 17:07:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5c13380f0fe332009a954e9ce1050ee2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 17:07:21</sys_updated_on>
+            <value>CMDB Integration Import Source</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Request Management</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Incident Self Service Configuration</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>2</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 18:14:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>96624dcb0f2732009a954e9ce1050e09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 18:14:23</sys_updated_on>
+            <value>Incident Self Service Configuration</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Core Platform</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>LDAP/AD Integration</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>2</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 14:42:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c6d1580f0f6332009a954e9ce1050e2c</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 17:14:32</sys_updated_on>
+            <value>LDAP/AD Integration</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Core Platform</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MID Server Installations</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>3</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 14:42:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>06d118030fa332009a954e9ce1050e24</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 17:14:32</sys_updated_on>
+            <value>MID Server Installations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Core Platform</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Organizational Data Load</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>4</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 14:42:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8ad1580f0f6332009a954e9ce1050e2b</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 17:14:32</sys_updated_on>
+            <value>Organizational Data Load</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>work_item</element>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 14:42:12</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>46d1580f0f6332009a954e9ce1050e2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>work_item</sys_name>
+            <sys_package display_value="Services Estimation Tool" source="x_9006_srv_est_tl">033988030f2332009a954e9ce1050e3e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Services Estimation Tool">033988030f2332009a954e9ce1050e3e</sys_scope>
+            <sys_update_name>sys_choice_x_9006_srv_est_tl_work_type_work_item</sys_update_name>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 14:42:12</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

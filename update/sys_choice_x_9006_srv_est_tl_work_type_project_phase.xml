@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="project_phase" table="x_9006_srv_est_tl_work_type" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>project_phase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1-Plan</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>0</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 20:27:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>98e0e1470fa732009a954e9ce1050e09</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 20:34:05</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>project_phase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2-Design</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>1</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 20:27:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>98e0e1470fa732009a954e9ce1050e0a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 20:34:03</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>project_phase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3-Develop</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>2</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 20:27:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d4e0e1470fa732009a954e9ce1050e0b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 20:34:01</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>project_phase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4-Validate</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>3</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 20:27:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>14e0e1470fa732009a954e9ce1050e0c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 20:33:34</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>project_phase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5-Deploy</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>4</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 20:27:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>50e0e1470fa732009a954e9ce1050e0d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 20:33:41</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>project_phase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>6-Deliverables</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>5</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 20:27:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9ce0e1470fa732009a954e9ce1050e0d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 20:33:55</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>project_phase</element>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-28 20:27:30</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>54e0e1470fa732009a954e9ce1050e0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>project_phase</sys_name>
+            <sys_package display_value="Services Estimation Tool" source="x_9006_srv_est_tl">033988030f2332009a954e9ce1050e3e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Services Estimation Tool">033988030f2332009a954e9ce1050e3e</sys_scope>
+            <sys_update_name>sys_choice_x_9006_srv_est_tl_work_type_project_phase</sys_update_name>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-28 20:27:30</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

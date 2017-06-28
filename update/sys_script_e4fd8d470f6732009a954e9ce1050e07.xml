@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>true</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_9006_srv_est_tl_work_item</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Recalculate Total Hours on Quote</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	// Add your code here
+	var item_total = 0;
+	var gr = new GlideRecord("x_9006_srv_est_tl_work_item");
+	gr.addQuery("quote", current.quote);
+	gr.query();
+	while (gr.next()) {
+		item_total += item_total + gr.hours;
+	}
+	
+	var qr = new GlideRecord("x_9006_srv_est_tl_quotes");
+	qr.addQuery("sys_id", current.quote);
+	qr.query();
+	if (qr.next()) {
+		qr.total_hours = item_total;
+		qr.services_total = item_total * qr.rate_type;
+	}
+	
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-06-28 19:11:26</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e4fd8d470f6732009a954e9ce1050e07</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Recalculate Total Hours on Quote</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Services Estimation Tool" source="x_9006_srv_est_tl">033988030f2332009a954e9ce1050e3e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Services Estimation Tool">033988030f2332009a954e9ce1050e3e</sys_scope>
+        <sys_update_name>sys_script_e4fd8d470f6732009a954e9ce1050e07</sys_update_name>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-06-28 19:59:33</sys_updated_on>
+        <template/>
+        <when>async</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=e4fd8d470f6732009a954e9ce1050e07"/>
+</record_update>
