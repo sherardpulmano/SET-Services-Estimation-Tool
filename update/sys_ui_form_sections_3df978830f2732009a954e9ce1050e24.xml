@@ -22,12 +22,12 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>71f978830f2732009a954e9ce1050e27</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_9006_srv_est_tl_quotes" name="x_9006_srv_est_tl_quotes" sys_domain="global" view="Default view">3df978830f2732009a954e9ce1050e24</sys_ui_form>
             <sys_ui_section caption="Calculations" display_value="Calculations" name="x_9006_srv_est_tl_quotes" sys_domain="global" view="Default view">31f978830f2732009a954e9ce1050e26</sys_ui_section>
             <sys_updated_by>spulmano</sys_updated_by>
-            <sys_updated_on>2017-06-28 17:37:29</sys_updated_on>
+            <sys_updated_on>2017-06-30 17:14:12</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_9006_srv_est_tl_quotes</name>

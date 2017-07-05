@@ -5,13 +5,13 @@
             <element>.begin_split</element>
             <position>0</position>
             <sys_created_by>spulmano</sys_created_by>
-            <sys_created_on>2017-06-28 20:27:42</sys_created_on>
-            <sys_id>03e0a5870fa732009a954e9ce1050ed6</sys_id>
+            <sys_created_on>2017-06-30 14:51:45</sys_created_on>
+            <sys_id>2537662f0fa332009a954e9ce1050e86</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_9006_srv_est_tl_work_type" sys_domain="global" view="Default view">7c4d480f0f6332009a954e9ce1050e3a</sys_ui_section>
             <sys_updated_by>spulmano</sys_updated_by>
-            <sys_updated_on>2017-06-28 20:27:42</sys_updated_on>
+            <sys_updated_on>2017-06-30 14:51:45</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>work_tool</element>
             <position>1</position>
             <sys_created_by>spulmano</sys_created_by>
-            <sys_created_on>2017-06-28 20:27:42</sys_created_on>
-            <sys_id>83e0a5870fa732009a954e9ce1050ed6</sys_id>
+            <sys_created_on>2017-06-30 14:51:45</sys_created_on>
+            <sys_id>e937662f0fa332009a954e9ce1050e86</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_9006_srv_est_tl_work_type" sys_domain="global" view="Default view">7c4d480f0f6332009a954e9ce1050e3a</sys_ui_section>
             <sys_updated_by>spulmano</sys_updated_by>
-            <sys_updated_on>2017-06-28 20:27:42</sys_updated_on>
+            <sys_updated_on>2017-06-30 14:51:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>work_type</element>
             <position>2</position>
             <sys_created_by>spulmano</sys_created_by>
-            <sys_created_on>2017-06-28 20:27:42</sys_created_on>
-            <sys_id>07e0a5870fa732009a954e9ce1050ed6</sys_id>
+            <sys_created_on>2017-06-30 14:51:45</sys_created_on>
+            <sys_id>6d37662f0fa332009a954e9ce1050e86</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_9006_srv_est_tl_work_type" sys_domain="global" view="Default view">7c4d480f0f6332009a954e9ce1050e3a</sys_ui_section>
             <sys_updated_by>spulmano</sys_updated_by>
-            <sys_updated_on>2017-06-28 20:27:42</sys_updated_on>
+            <sys_updated_on>2017-06-30 14:51:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -47,13 +47,13 @@
             <element>work_item</element>
             <position>3</position>
             <sys_created_by>spulmano</sys_created_by>
-            <sys_created_on>2017-06-28 20:27:42</sys_created_on>
-            <sys_id>87e0a5870fa732009a954e9ce1050ed6</sys_id>
+            <sys_created_on>2017-06-30 14:51:45</sys_created_on>
+            <sys_id>ed37662f0fa332009a954e9ce1050e86</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_9006_srv_est_tl_work_type" sys_domain="global" view="Default view">7c4d480f0f6332009a954e9ce1050e3a</sys_ui_section>
             <sys_updated_by>spulmano</sys_updated_by>
-            <sys_updated_on>2017-06-28 20:27:42</sys_updated_on>
+            <sys_updated_on>2017-06-30 14:51:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -61,69 +61,83 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>spulmano</sys_created_by>
-            <sys_created_on>2017-06-28 20:27:42</sys_created_on>
-            <sys_id>0be0a5870fa732009a954e9ce1050ed6</sys_id>
+            <sys_created_on>2017-06-30 14:51:45</sys_created_on>
+            <sys_id>6137662f0fa332009a954e9ce1050e87</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_9006_srv_est_tl_work_type" sys_domain="global" view="Default view">7c4d480f0f6332009a954e9ce1050e3a</sys_ui_section>
             <sys_updated_by>spulmano</sys_updated_by>
-            <sys_updated_on>2017-06-28 20:27:42</sys_updated_on>
+            <sys_updated_on>2017-06-30 14:51:45</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>project_phase</element>
+            <element>services_offering</element>
             <position>5</position>
             <sys_created_by>spulmano</sys_created_by>
-            <sys_created_on>2017-06-28 20:27:42</sys_created_on>
-            <sys_id>8be0a5870fa732009a954e9ce1050ed6</sys_id>
+            <sys_created_on>2017-06-30 14:51:45</sys_created_on>
+            <sys_id>e137662f0fa332009a954e9ce1050e87</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_9006_srv_est_tl_work_type" sys_domain="global" view="Default view">7c4d480f0f6332009a954e9ce1050e3a</sys_ui_section>
             <sys_updated_by>spulmano</sys_updated_by>
-            <sys_updated_on>2017-06-28 20:27:42</sys_updated_on>
+            <sys_updated_on>2017-06-30 14:51:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>project_phase</element>
+            <position>6</position>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-30 14:51:45</sys_created_on>
+            <sys_id>6537662f0fa332009a954e9ce1050e87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_9006_srv_est_tl_work_type" sys_domain="global" view="Default view">7c4d480f0f6332009a954e9ce1050e3a</sys_ui_section>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-30 14:51:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>hours</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>spulmano</sys_created_by>
-            <sys_created_on>2017-06-28 20:27:42</sys_created_on>
-            <sys_id>0fe0a5870fa732009a954e9ce1050ed6</sys_id>
+            <sys_created_on>2017-06-30 14:51:45</sys_created_on>
+            <sys_id>e537662f0fa332009a954e9ce1050e87</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_9006_srv_est_tl_work_type" sys_domain="global" view="Default view">7c4d480f0f6332009a954e9ce1050e3a</sys_ui_section>
             <sys_updated_by>spulmano</sys_updated_by>
-            <sys_updated_on>2017-06-28 20:27:42</sys_updated_on>
+            <sys_updated_on>2017-06-30 14:51:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>spulmano</sys_created_by>
-            <sys_created_on>2017-06-28 20:27:42</sys_created_on>
-            <sys_id>8fe0a5870fa732009a954e9ce1050ed6</sys_id>
+            <sys_created_on>2017-06-30 14:51:45</sys_created_on>
+            <sys_id>6937662f0fa332009a954e9ce1050e87</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_9006_srv_est_tl_work_type" sys_domain="global" view="Default view">7c4d480f0f6332009a954e9ce1050e3a</sys_ui_section>
             <sys_updated_by>spulmano</sys_updated_by>
-            <sys_updated_on>2017-06-28 20:27:42</sys_updated_on>
+            <sys_updated_on>2017-06-30 14:51:45</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>work_description</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>spulmano</sys_created_by>
-            <sys_created_on>2017-06-28 20:27:42</sys_created_on>
-            <sys_id>03e0a5870fa732009a954e9ce1050ed7</sys_id>
+            <sys_created_on>2017-06-30 14:51:45</sys_created_on>
+            <sys_id>e937662f0fa332009a954e9ce1050e87</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_9006_srv_est_tl_work_type" sys_domain="global" view="Default view">7c4d480f0f6332009a954e9ce1050e3a</sys_ui_section>
             <sys_updated_by>spulmano</sys_updated_by>
-            <sys_updated_on>2017-06-28 20:27:42</sys_updated_on>
+            <sys_updated_on>2017-06-30 14:51:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

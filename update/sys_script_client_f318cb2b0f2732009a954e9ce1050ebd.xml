@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>service_offerings</field>
+        <global>true</global>
+        <messages/>
+        <name>Set Items by Service Offering</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading) {
+		return;
+	}
+	var so = g_form.getValue("service_offerings");
+	var id = g_form.getUniqueValue();
+	var ga = new GlideAjax('SETAjaxServicesEstimation');
+	ga.addParam('sysparm_name','ModQuoteItems');
+	ga.addParam('sysparm_soids',so);
+	ga.addParam('sysparm_sysid',id);
+	ga.getXML(setItems);
+	
+	function setItems(response) {
+		var answer = response.responseXML.documentElement.getAttribute("answer");
+		alert(answer);
+	}
+	
+}
+
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-06-30 17:21:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f318cb2b0f2732009a954e9ce1050ebd</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Set Items by Service Offering</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Services Estimation Tool" source="x_9006_srv_est_tl">033988030f2332009a954e9ce1050e3e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Services Estimation Tool">033988030f2332009a954e9ce1050e3e</sys_scope>
+        <sys_update_name>sys_script_client_f318cb2b0f2732009a954e9ce1050ebd</sys_update_name>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-06-30 19:22:06</sys_updated_on>
+        <table>x_9006_srv_est_tl_quotes</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

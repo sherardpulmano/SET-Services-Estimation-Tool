@@ -287,6 +287,82 @@
             <value>Custom</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Support</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Go-Live Support</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>0</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-30 15:26:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d11fea230fe332009a954e9ce1050e75</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-30 15:26:08</sys_updated_on>
+            <value>Go-Live Support</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Training</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Knowledge Transfer</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>0</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-30 15:12:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9cfbe6230fe332009a954e9ce1050efb</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-30 15:13:31</sys_updated_on>
+            <value>Knowledge Transfer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Project Delivery</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Project Planning</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>0</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-29 11:32:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4a107c570f2332009a954e9ce1050e91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-29 11:32:51</sys_updated_on>
+            <value>Project Planning</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Documentation</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Requirements and Design</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>0</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-30 15:20:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>61edea230fe332009a954e9ce1050ebc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-30 15:20:57</sys_updated_on>
+            <value>Requirements and Design</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Request Management</dependent_value>
             <element>work_item</element>
             <hint/>
@@ -304,6 +380,25 @@
             <sys_updated_by>spulmano</sys_updated_by>
             <sys_updated_on>2017-06-28 18:14:23</sys_updated_on>
             <value>Requirements and Design Workshop</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Testing</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Solution Testing</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>0</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-30 15:11:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c4cba2ef0fa332009a954e9ce1050e00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-30 15:11:35</sys_updated_on>
+            <value>Solution Testing</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Request Management</dependent_value>
@@ -399,6 +494,25 @@
             <sys_updated_by>spulmano</sys_updated_by>
             <sys_updated_on>2017-06-28 17:10:00</sys_updated_on>
             <value>KB Integration Import Source</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Project Delivery</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Project Kickoff</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>1</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-29 11:32:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>86107c570f2332009a954e9ce1050e92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-29 11:32:51</sys_updated_on>
+            <value>Project Kickoff</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Incident Management</dependent_value>
@@ -534,6 +648,25 @@
             <value>Requirements and Design Workshop</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Documentation</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Solution Build</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>1</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-30 15:20:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>adedea230fe332009a954e9ce1050ebc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-30 15:20:57</sys_updated_on>
+            <value>Solution Build</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Configuration Management</dependent_value>
             <element>work_item</element>
             <hint/>
@@ -589,6 +722,63 @@
             <sys_updated_by>spulmano</sys_updated_by>
             <sys_updated_on>2017-06-28 17:14:32</sys_updated_on>
             <value>LDAP/AD Integration</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Project Delivery</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Project Administration</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>2</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-29 11:32:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8610b0d70f2332009a954e9ce1050ece</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-29 11:33:36</sys_updated_on>
+            <value>Project Administration</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Documentation</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Test Plan</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>2</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-30 15:20:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e9edea230fe332009a954e9ce1050ebd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-30 15:20:57</sys_updated_on>
+            <value>Test Plan</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Documentation</dependent_value>
+            <element>work_item</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Deployment Plan</label>
+            <language>en</language>
+            <name>x_9006_srv_est_tl_work_type</name>
+            <sequence>3</sequence>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-30 15:20:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>29edea230fe332009a954e9ce1050ebe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-30 15:20:57</sys_updated_on>
+            <value>Deployment Plan</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Core Platform</dependent_value>

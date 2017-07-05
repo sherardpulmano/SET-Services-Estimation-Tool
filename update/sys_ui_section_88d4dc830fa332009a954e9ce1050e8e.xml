@@ -5,13 +5,13 @@
             <element>.begin_split</element>
             <position>0</position>
             <sys_created_by>spulmano</sys_created_by>
-            <sys_created_on>2017-06-28 17:54:49</sys_created_on>
-            <sys_id>73edb00b0f2732009a954e9ce1050e43</sys_id>
+            <sys_created_on>2017-06-30 17:14:12</sys_created_on>
+            <sys_id>d8d7872b0f2732009a954e9ce1050ef1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_9006_srv_est_tl_quotes" sys_domain="global" view="Default view">88d4dc830fa332009a954e9ce1050e8e</sys_ui_section>
             <sys_updated_by>spulmano</sys_updated_by>
-            <sys_updated_on>2017-06-28 17:54:49</sys_updated_on>
+            <sys_updated_on>2017-06-30 17:14:12</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>number</element>
             <position>1</position>
             <sys_created_by>spulmano</sys_created_by>
-            <sys_created_on>2017-06-28 17:54:49</sys_created_on>
-            <sys_id>f3edb00b0f2732009a954e9ce1050e43</sys_id>
+            <sys_created_on>2017-06-30 17:14:12</sys_created_on>
+            <sys_id>5cd7872b0f2732009a954e9ce1050ef1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_9006_srv_est_tl_quotes" sys_domain="global" view="Default view">88d4dc830fa332009a954e9ce1050e8e</sys_ui_section>
             <sys_updated_by>spulmano</sys_updated_by>
-            <sys_updated_on>2017-06-28 17:54:49</sys_updated_on>
+            <sys_updated_on>2017-06-30 17:14:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,111 +33,125 @@
             <element>name</element>
             <position>2</position>
             <sys_created_by>spulmano</sys_created_by>
-            <sys_created_on>2017-06-28 17:54:49</sys_created_on>
-            <sys_id>77edb00b0f2732009a954e9ce1050e43</sys_id>
+            <sys_created_on>2017-06-30 17:14:12</sys_created_on>
+            <sys_id>dcd7872b0f2732009a954e9ce1050ef1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_9006_srv_est_tl_quotes" sys_domain="global" view="Default view">88d4dc830fa332009a954e9ce1050e8e</sys_ui_section>
             <sys_updated_by>spulmano</sys_updated_by>
-            <sys_updated_on>2017-06-28 17:54:49</sys_updated_on>
+            <sys_updated_on>2017-06-30 17:14:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>service_offerings</element>
+            <position>3</position>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-06-30 17:14:12</sys_created_on>
+            <sys_id>50d7872b0f2732009a954e9ce1050ef2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_9006_srv_est_tl_quotes" sys_domain="global" view="Default view">88d4dc830fa332009a954e9ce1050e8e</sys_ui_section>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-06-30 17:14:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>spulmano</sys_created_by>
-            <sys_created_on>2017-06-28 17:54:49</sys_created_on>
-            <sys_id>f7edb00b0f2732009a954e9ce1050e43</sys_id>
+            <sys_created_on>2017-06-30 17:14:12</sys_created_on>
+            <sys_id>d0d7872b0f2732009a954e9ce1050ef2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_9006_srv_est_tl_quotes" sys_domain="global" view="Default view">88d4dc830fa332009a954e9ce1050e8e</sys_ui_section>
             <sys_updated_by>spulmano</sys_updated_by>
-            <sys_updated_on>2017-06-28 17:54:49</sys_updated_on>
+            <sys_updated_on>2017-06-30 17:14:12</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>account</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>spulmano</sys_created_by>
-            <sys_created_on>2017-06-28 17:54:49</sys_created_on>
-            <sys_id>7bedb00b0f2732009a954e9ce1050e43</sys_id>
+            <sys_created_on>2017-06-30 17:14:12</sys_created_on>
+            <sys_id>54d7872b0f2732009a954e9ce1050ef2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_9006_srv_est_tl_quotes" sys_domain="global" view="Default view">88d4dc830fa332009a954e9ce1050e8e</sys_ui_section>
             <sys_updated_by>spulmano</sys_updated_by>
-            <sys_updated_on>2017-06-28 17:54:49</sys_updated_on>
+            <sys_updated_on>2017-06-30 17:14:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>spulmano</sys_created_by>
-            <sys_created_on>2017-06-28 17:54:49</sys_created_on>
-            <sys_id>fbedb00b0f2732009a954e9ce1050e43</sys_id>
+            <sys_created_on>2017-06-30 17:14:12</sys_created_on>
+            <sys_id>d4d7872b0f2732009a954e9ce1050ef2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_9006_srv_est_tl_quotes" sys_domain="global" view="Default view">88d4dc830fa332009a954e9ce1050e8e</sys_ui_section>
             <sys_updated_by>spulmano</sys_updated_by>
-            <sys_updated_on>2017-06-28 17:54:49</sys_updated_on>
+            <sys_updated_on>2017-06-30 17:14:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>submission_date</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>spulmano</sys_created_by>
-            <sys_created_on>2017-06-28 17:54:49</sys_created_on>
-            <sys_id>7fedb00b0f2732009a954e9ce1050e43</sys_id>
+            <sys_created_on>2017-06-30 17:14:12</sys_created_on>
+            <sys_id>58d7872b0f2732009a954e9ce1050ef2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_9006_srv_est_tl_quotes" sys_domain="global" view="Default view">88d4dc830fa332009a954e9ce1050e8e</sys_ui_section>
             <sys_updated_by>spulmano</sys_updated_by>
-            <sys_updated_on>2017-06-28 17:54:49</sys_updated_on>
+            <sys_updated_on>2017-06-30 17:14:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>acceptance_date</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>spulmano</sys_created_by>
-            <sys_created_on>2017-06-28 17:54:49</sys_created_on>
-            <sys_id>ffedb00b0f2732009a954e9ce1050e43</sys_id>
+            <sys_created_on>2017-06-30 17:14:12</sys_created_on>
+            <sys_id>d8d7872b0f2732009a954e9ce1050ef2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_9006_srv_est_tl_quotes" sys_domain="global" view="Default view">88d4dc830fa332009a954e9ce1050e8e</sys_ui_section>
             <sys_updated_by>spulmano</sys_updated_by>
-            <sys_updated_on>2017-06-28 17:54:49</sys_updated_on>
+            <sys_updated_on>2017-06-30 17:14:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>spulmano</sys_created_by>
-            <sys_created_on>2017-06-28 17:54:49</sys_created_on>
-            <sys_id>73edb00b0f2732009a954e9ce1050e44</sys_id>
+            <sys_created_on>2017-06-30 17:14:12</sys_created_on>
+            <sys_id>5cd7872b0f2732009a954e9ce1050ef2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_9006_srv_est_tl_quotes" sys_domain="global" view="Default view">88d4dc830fa332009a954e9ce1050e8e</sys_ui_section>
             <sys_updated_by>spulmano</sys_updated_by>
-            <sys_updated_on>2017-06-28 17:54:49</sys_updated_on>
+            <sys_updated_on>2017-06-30 17:14:12</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>description</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>spulmano</sys_created_by>
-            <sys_created_on>2017-06-28 17:54:49</sys_created_on>
-            <sys_id>f3edb00b0f2732009a954e9ce1050e44</sys_id>
+            <sys_created_on>2017-06-30 17:14:12</sys_created_on>
+            <sys_id>dcd7872b0f2732009a954e9ce1050ef2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_9006_srv_est_tl_quotes" sys_domain="global" view="Default view">88d4dc830fa332009a954e9ce1050e8e</sys_ui_section>
             <sys_updated_by>spulmano</sys_updated_by>
-            <sys_updated_on>2017-06-28 17:54:49</sys_updated_on>
+            <sys_updated_on>2017-06-30 17:14:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Service Offerings" max_length="40" name="x_9006_srv_est_tl_service_offerings" type="collection">
+        <element display="true" label="Offering" max_length="40" name="offering" type="string"/>
+    </element>
+</database>

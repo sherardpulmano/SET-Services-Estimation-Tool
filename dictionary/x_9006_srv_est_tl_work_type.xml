@@ -12,6 +12,7 @@
                 <element label="6-Deliverables" sequence="5" value="6"/>
             </choice>
         </element>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Services Offering" max_length="1024" name="services_offering" reference="x_9006_srv_est_tl_service_offerings" type="glide_list"/>
         <element label="Work Description" max_length="4000" name="work_description" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" dependent="work_type" dependent_on_field="work_type" display="true" label="Work Item" max_length="120" name="work_item" type="string" use_dependent_field="true">
             <choice>
@@ -30,12 +31,18 @@
                 <element dependent_value="Knowledge Management" label="Custom" sequence="0" value="Custom"/>
                 <element dependent_value="Change Management" label="Custom" sequence="0" value="Custom"/>
                 <element dependent_value="Request Management" label="Custom" sequence="0" value="Custom"/>
+                <element dependent_value="Support" label="Go-Live Support" sequence="0" value="Go-Live Support"/>
+                <element dependent_value="Training" label="Knowledge Transfer" sequence="0" value="Knowledge Transfer"/>
+                <element dependent_value="Project Delivery" label="Project Planning" sequence="0" value="Project Planning"/>
+                <element dependent_value="Documentation" label="Requirements and Design" sequence="0" value="Requirements and Design"/>
                 <element dependent_value="Request Management" label="Requirements and Design Workshop" sequence="0" value="Requirements and Design Workshop"/>
+                <element dependent_value="Testing" label="Solution Testing" sequence="0" value="Solution Testing"/>
                 <element dependent_value="Request Management" label="Basic Item Creation" sequence="1" value="Basic Item Creation"/>
                 <element dependent_value="Configuration Management" label="Configure CMDB Health Dashboard" sequence="1" value="Configure CMDB Health Dashboard"/>
                 <element dependent_value="Discovery" label="Configure Discovery Dashboard" sequence="1" value="Configure Discovery Dashboard"/>
                 <element dependent_value="Core Platform" label="Enable/Configure Mobile applications" sequence="1" value="Enable/Configure Mobile applications"/>
                 <element dependent_value="Knowledge Management" label="KB Integration Import Source" sequence="1" value="KB Integration Import Source"/>
+                <element dependent_value="Project Delivery" label="Project Kickoff" sequence="1" value="Project Kickoff"/>
                 <element dependent_value="Incident Management" label="Requirements and Design Workshop" sequence="1" value="Requirements and Design Workshop"/>
                 <element dependent_value="Core Platform" label="Requirements and Design Workshop" sequence="1" value="Requirements and Design Workshop"/>
                 <element dependent_value="Knowledge Management" label="Requirements and Design Workshop" sequence="1" value="Requirements and Design Workshop"/>
@@ -43,9 +50,13 @@
                 <element dependent_value="Discovery" label="Requirements and Design Workshop" sequence="1" value="Requirements and Design Workshop"/>
                 <element dependent_value="Problem Management" label="Requirements and Design Workshop" sequence="1" value="Requirements and Design Workshop"/>
                 <element dependent_value="Change Management" label="Requirements and Design Workshop" sequence="1" value="Requirements and Design Workshop"/>
+                <element dependent_value="Documentation" label="Solution Build" sequence="1" value="Solution Build"/>
                 <element dependent_value="Configuration Management" label="CMDB Integration Import Source" sequence="2" value="CMDB Integration Import Source"/>
                 <element dependent_value="Request Management" label="Incident Self Service Configuration" sequence="2" value="Incident Self Service Configuration"/>
                 <element dependent_value="Core Platform" label="LDAP/AD Integration" sequence="2" value="LDAP/AD Integration"/>
+                <element dependent_value="Project Delivery" label="Project Administration" sequence="2" value="Project Administration"/>
+                <element dependent_value="Documentation" label="Test Plan" sequence="2" value="Test Plan"/>
+                <element dependent_value="Documentation" label="Deployment Plan" sequence="3" value="Deployment Plan"/>
                 <element dependent_value="Core Platform" label="MID Server Installations" sequence="3" value="MID Server Installations"/>
                 <element dependent_value="Core Platform" label="Organizational Data Load" sequence="4" value="Organizational Data Load"/>
             </choice>
@@ -63,10 +74,15 @@
                 <element dependent_value="ServiceNow" label="Configuration Management" sequence="2" value="Configuration Management"/>
                 <element dependent_value="ServiceNow" label="Core Platform" sequence="3" value="Core Platform"/>
                 <element dependent_value="ServiceNow" label="Discovery" sequence="4" value="Discovery"/>
-                <element dependent_value="ServiceNow" label="Incident Management" sequence="5" value="Incident Management"/>
-                <element dependent_value="ServiceNow" label="Knowledge Management" sequence="6" value="Knowledge Management"/>
-                <element dependent_value="ServiceNow" label="Problem Management" sequence="7" value="Problem Management"/>
-                <element dependent_value="ServiceNow" label="Request Management" sequence="8" value="Request Management"/>
+                <element dependent_value="ServiceNow" label="Documentation" sequence="5" value="Documentation"/>
+                <element dependent_value="ServiceNow" label="Incident Management" sequence="6" value="Incident Management"/>
+                <element dependent_value="ServiceNow" label="Knowledge Management" sequence="7" value="Knowledge Management"/>
+                <element dependent_value="ServiceNow" label="Problem Management" sequence="8" value="Problem Management"/>
+                <element dependent_value="ServiceNow" label="Project Delivery" sequence="9" value="Project Delivery"/>
+                <element dependent_value="ServiceNow" label="Request Management" sequence="10" value="Request Management"/>
+                <element dependent_value="ServiceNow" label="Testing" sequence="11" value="Testing"/>
+                <element dependent_value="ServiceNow" label="Training" sequence="12" value="Training"/>
+                <element dependent_value="ServiceNow" label="Support" sequence="13" value="Support"/>
             </choice>
         </element>
     </element>

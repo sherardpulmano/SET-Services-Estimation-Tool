@@ -13,7 +13,7 @@
         <column_label>Rate Type</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>225</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -49,7 +49,7 @@
         <sys_created_on>2017-06-28 17:48:24</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>797cbc870f2732009a954e9ce1050e44</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Rate Type</sys_name>
         <sys_package display_value="Services Estimation Tool" source="x_9006_srv_est_tl">033988030f2332009a954e9ce1050e3e</sys_package>
         <sys_policy/>
@@ -57,7 +57,7 @@
         <sys_scope display_value="Services Estimation Tool">033988030f2332009a954e9ce1050e3e</sys_scope>
         <sys_update_name>sys_dictionary_x_9006_srv_est_tl_quotes_rate_type</sys_update_name>
         <sys_updated_by>spulmano</sys_updated_by>
-        <sys_updated_on>2017-06-28 17:48:24</sys_updated_on>
+        <sys_updated_on>2017-06-30 19:49:49</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
