@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>b412fccb0fe332009a954e9ce1050e22</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_9006_srv_est_tl_work_type">
+    <x_9006_srv_est_tl_work_type action="INSERT_OR_UPDATE">
+        <hours>40</hours>
+        <project_phase>3</project_phase>
+        <services_offering>79672a2f0fa332009a954e9ce1050efa,650794d90fb332009a954e9ce1050e1e</services_offering>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-06-28 17:03:31</sys_created_on>
+        <sys_id>b412fccb0fe332009a954e9ce1050e22</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-07-05 14:54:17</sys_updated_on>
+        <work_description/>
+        <work_item>Application Configuration</work_item>
+        <work_tool>ServiceNow</work_tool>
+        <work_type>Change Management</work_type>
+    </x_9006_srv_est_tl_work_type>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-07-05 17:11:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8a373cd50f3732009a954e9ce1050ec3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Application Configuration</sys_name>
+        <sys_package display_value="Services Estimation Tool" source="x_9006_srv_est_tl">033988030f2332009a954e9ce1050e3e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Services Estimation Tool">033988030f2332009a954e9ce1050e3e</sys_scope>
+        <sys_update_name>sys_metadata_link_8a373cd50f3732009a954e9ce1050ec3</sys_update_name>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-07-05 17:11:49</sys_updated_on>
+        <tablename>x_9006_srv_est_tl_work_type</tablename>
+    </sys_metadata_link>
+</record_update>
