@@ -38,7 +38,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>service_offerings</name>
-        <order>40</order>
+        <order>300</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <question_text>Select one or more Service Offerings for this quote:</question_text>
@@ -61,7 +61,7 @@
         <sys_created_on>2017-07-05 14:37:25</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>817358910fb332009a954e9ce1050ef4</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Select one or more Service Offerings for this quote:</sys_name>
         <sys_package display_value="Services Estimation Tool" source="x_9006_srv_est_tl">033988030f2332009a954e9ce1050e3e</sys_package>
         <sys_policy/>
@@ -69,7 +69,7 @@
         <sys_scope display_value="Services Estimation Tool">033988030f2332009a954e9ce1050e3e</sys_scope>
         <sys_update_name>item_option_new_817358910fb332009a954e9ce1050ef4</sys_update_name>
         <sys_updated_by>spulmano</sys_updated_by>
-        <sys_updated_on>2017-07-05 15:36:13</sys_updated_on>
+        <sys_updated_on>2017-07-05 16:02:22</sys_updated_on>
         <table/>
         <tooltip/>
         <type>21</type>
