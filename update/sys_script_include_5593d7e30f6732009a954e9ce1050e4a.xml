@@ -12,7 +12,8 @@ SETAjaxServicesEstimation.prototype = Object.extendsObject(global.AbstractAjaxPr
 	
 	ModQuoteItems: function() {
 		
-		var so = [this.getParameter("sysparm_soids")];
+		var stroff = this.getParameter("sysparm_soids");
+		var so = stroff.split(",");
 		var id = this.getParameter("sysparm_sysid");
 		var x;
 		
@@ -20,10 +21,10 @@ SETAjaxServicesEstimation.prototype = Object.extendsObject(global.AbstractAjaxPr
 			var dr = new GlideRecord("x_9006_srv_est_tl_work_item");
 			dr.addQuery("quote", id);
 			dr.deleteMultiple();
-			//gs.info('length '+so.length);
+			gs.info('length '+so.length);
 			if (so != '' ) {
 				for (i=0; i < so.length; i++) {
-					//gs.info('each so'+so[i]);
+					gs.info('each so'+so[i]);
 					var cItem = this.chkItem(id, so[i]);
 					if (cItem == false) {
 						var gr = new GlideRecord("x_9006_srv_est_tl_work_type");
@@ -69,7 +70,7 @@ SETAjaxServicesEstimation.prototype = Object.extendsObject(global.AbstractAjaxPr
         <sys_created_on>2017-06-30 18:10:25</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>5593d7e30f6732009a954e9ce1050e4a</sys_id>
-        <sys_mod_count>33</sys_mod_count>
+        <sys_mod_count>35</sys_mod_count>
         <sys_name>SETAjaxServicesEstimation</sys_name>
         <sys_package display_value="Services Estimation Tool" source="x_9006_srv_est_tl">033988030f2332009a954e9ce1050e3e</sys_package>
         <sys_policy>read</sys_policy>
@@ -77,6 +78,6 @@ SETAjaxServicesEstimation.prototype = Object.extendsObject(global.AbstractAjaxPr
         <sys_scope display_value="Services Estimation Tool">033988030f2332009a954e9ce1050e3e</sys_scope>
         <sys_update_name>sys_script_include_5593d7e30f6732009a954e9ce1050e4a</sys_update_name>
         <sys_updated_by>spulmano</sys_updated_by>
-        <sys_updated_on>2017-07-05 14:09:05</sys_updated_on>
+        <sys_updated_on>2017-07-05 15:30:13</sys_updated_on>
     </sys_script_include>
 </record_update>
