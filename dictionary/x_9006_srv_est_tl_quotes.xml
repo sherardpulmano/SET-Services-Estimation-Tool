@@ -13,7 +13,7 @@
                 <element label="Normal" sequence="2" value="175"/>
             </choice>
         </element>
-        <element attributes="omit_sys_original=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;&#13;&#10;&#9;var total_cost = current.total_hours * current.rate_type;&#13;&#10;&#9;return parseFloat(total_cost);  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Services total" max_length="20" name="services_total" type="currency" virtual="true"/>
+        <element attributes="omit_sys_original=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;&#13;&#10;&#9;var total_cost = current.total_hours * current.rate_type;&#13;&#10;&#9;return parseFloat(total_cost);  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Services total" max_length="20" name="services_total" type="price" virtual="true"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Service Offerings" max_length="1024" name="service_offerings" reference="x_9006_srv_est_tl_service_offerings" type="glide_list"/>
         <element choice="3" default="Draft" label="State" max_length="40" name="state" type="choice">
             <choice>

@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Accounts" max_length="40" name="x_9006_srv_est_tl_accounts" type="collection">
-        <element display="true" label="Customer" max_length="40" name="customer" type="string"/>
-    </element>
+    <element extends="core_company" label="Accounts" max_length="40" name="x_9006_srv_est_tl_accounts" type="collection"/>
 </database>

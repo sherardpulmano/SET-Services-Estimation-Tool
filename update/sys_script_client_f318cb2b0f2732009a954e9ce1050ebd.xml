@@ -24,7 +24,9 @@
 	
 	function setItems(response) {
 		var answer = response.responseXML.documentElement.getAttribute("answer");
-		alert(answer);
+		if (answer) {
+			alert("Quote Items have been modified because of changes to Service Offerings.");
+		}
 	}
 	
 }
@@ -37,7 +39,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f318cb2b0f2732009a954e9ce1050ebd</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Set Items by Service Offering</sys_name>
         <sys_overrides/>
         <sys_package display_value="Services Estimation Tool" source="x_9006_srv_est_tl">033988030f2332009a954e9ce1050e3e</sys_package>
@@ -46,7 +48,7 @@
         <sys_scope display_value="Services Estimation Tool">033988030f2332009a954e9ce1050e3e</sys_scope>
         <sys_update_name>sys_script_client_f318cb2b0f2732009a954e9ce1050ebd</sys_update_name>
         <sys_updated_by>spulmano</sys_updated_by>
-        <sys_updated_on>2017-06-30 19:22:06</sys_updated_on>
+        <sys_updated_on>2017-07-11 15:22:38</sys_updated_on>
         <table>x_9006_srv_est_tl_quotes</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

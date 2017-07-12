@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Information" section_id="edca71be0f7332009a954e9ce1050e33" sys_domain="global" table="x_9006_srv_est_tl_accounts" version="3" view="vendor">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-07-10 13:57:51</sys_created_on>
+            <sys_id>69ca71be0f7332009a954e9ce1050e34</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="x_9006_srv_est_tl_accounts" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">edca71be0f7332009a954e9ce1050e33</sys_ui_section>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-07-10 13:57:51</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>profits</element>
+            <position>1</position>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-07-10 13:57:51</sys_created_on>
+            <sys_id>e9ca71be0f7332009a954e9ce1050e34</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="x_9006_srv_est_tl_accounts" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">edca71be0f7332009a954e9ce1050e33</sys_ui_section>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-07-10 13:57:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>revenue_per_year</element>
+            <position>2</position>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-07-10 13:57:51</sys_created_on>
+            <sys_id>6dca71be0f7332009a954e9ce1050e34</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="x_9006_srv_est_tl_accounts" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">edca71be0f7332009a954e9ce1050e33</sys_ui_section>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-07-10 13:57:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>stock_price</element>
+            <position>3</position>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-07-10 13:57:51</sys_created_on>
+            <sys_id>edca71be0f7332009a954e9ce1050e34</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="x_9006_srv_est_tl_accounts" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">edca71be0f7332009a954e9ce1050e33</sys_ui_section>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-07-10 13:57:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>market_cap</element>
+            <position>4</position>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-07-10 13:57:51</sys_created_on>
+            <sys_id>61ca71be0f7332009a954e9ce1050e35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="x_9006_srv_est_tl_accounts" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">edca71be0f7332009a954e9ce1050e33</sys_ui_section>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-07-10 13:57:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>num_employees</element>
+            <position>5</position>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-07-10 13:57:51</sys_created_on>
+            <sys_id>e1ca71be0f7332009a954e9ce1050e35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="x_9006_srv_est_tl_accounts" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">edca71be0f7332009a954e9ce1050e33</sys_ui_section>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-07-10 13:57:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-07-10 13:57:51</sys_created_on>
+            <sys_id>65ca71be0f7332009a954e9ce1050e35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="x_9006_srv_est_tl_accounts" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">edca71be0f7332009a954e9ce1050e33</sys_ui_section>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-07-10 13:57:51</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>publicly_traded</element>
+            <position>7</position>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-07-10 13:57:51</sys_created_on>
+            <sys_id>e5ca71be0f7332009a954e9ce1050e35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="x_9006_srv_est_tl_accounts" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">edca71be0f7332009a954e9ce1050e33</sys_ui_section>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-07-10 13:57:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rank_tier</element>
+            <position>8</position>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-07-10 13:57:51</sys_created_on>
+            <sys_id>69ca71be0f7332009a954e9ce1050e35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="x_9006_srv_est_tl_accounts" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">edca71be0f7332009a954e9ce1050e33</sys_ui_section>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-07-10 13:57:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>discount</element>
+            <position>9</position>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-07-10 13:57:51</sys_created_on>
+            <sys_id>e9ca71be0f7332009a954e9ce1050e35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="x_9006_srv_est_tl_accounts" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">edca71be0f7332009a954e9ce1050e33</sys_ui_section>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-07-10 13:57:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fiscal_year</element>
+            <position>10</position>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-07-10 13:57:51</sys_created_on>
+            <sys_id>6dca71be0f7332009a954e9ce1050e35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="x_9006_srv_est_tl_accounts" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">edca71be0f7332009a954e9ce1050e33</sys_ui_section>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-07-10 13:57:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>11</position>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-07-10 13:57:51</sys_created_on>
+            <sys_id>edca71be0f7332009a954e9ce1050e35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="x_9006_srv_est_tl_accounts" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">edca71be0f7332009a954e9ce1050e33</sys_ui_section>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-07-10 13:57:51</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Information</caption>
+            <header>false</header>
+            <name>x_9006_srv_est_tl_accounts</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-07-10 13:57:51</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>edca71be0f7332009a954e9ce1050e33</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Information</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Services Estimation Tool" source="x_9006_srv_est_tl">033988030f2332009a954e9ce1050e3e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Services Estimation Tool">033988030f2332009a954e9ce1050e3e</sys_scope>
+            <sys_update_name>sys_ui_section_edca71be0f7332009a954e9ce1050e33</sys_update_name>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-07-10 13:57:51</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Vendor" name="vendor">c12b7492d7010100fceaa6859e6103e6</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

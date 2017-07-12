@@ -41,7 +41,7 @@
         <order>200</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Describe any background information or reasoning for producing this quote:</question_text>
+        <question_text>Describe any background or opportunity information for producing this quote:</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -61,15 +61,15 @@
         <sys_created_on>2017-07-05 14:35:13</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>e9c258190fb332009a954e9ce1050e31</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Describe any background information or reasoning for producing this quote:</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Describe any background or opportunity information for producing this quote:</sys_name>
         <sys_package display_value="Services Estimation Tool" source="x_9006_srv_est_tl">033988030f2332009a954e9ce1050e3e</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Services Estimation Tool">033988030f2332009a954e9ce1050e3e</sys_scope>
         <sys_update_name>item_option_new_e9c258190fb332009a954e9ce1050e31</sys_update_name>
         <sys_updated_by>spulmano</sys_updated_by>
-        <sys_updated_on>2017-07-05 16:01:38</sys_updated_on>
+        <sys_updated_on>2017-07-10 14:06:02</sys_updated_on>
         <table/>
         <tooltip/>
         <type>2</type>

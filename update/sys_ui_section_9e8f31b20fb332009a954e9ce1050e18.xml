@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_ui_section caption="" section_id="7b84dc830fa332009a954e9ce1050e4e" sys_domain="global" table="x_9006_srv_est_tl_accounts" version="3" view="">
+    <sys_ui_section caption="Quote Items" section_id="9e8f31b20fb332009a954e9ce1050e18" sys_domain="global" table="x_9006_srv_est_tl_quotes" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>customer</element>
+            <element>12M.x_9006_srv_est_tl_quotes.x_9006_srv_est_tl_work_item.quote</element>
             <position>0</position>
             <sys_created_by>spulmano</sys_created_by>
-            <sys_created_on>2017-06-28 14:54:03</sys_created_on>
-            <sys_id>b784dc830fa332009a954e9ce1050e54</sys_id>
+            <sys_created_on>2017-07-10 14:19:45</sys_created_on>
+            <sys_id>66cf31b20fb332009a954e9ce1050e29</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_9006_srv_est_tl_accounts" sys_domain="global" view="Default view">7b84dc830fa332009a954e9ce1050e4e</sys_ui_section>
+            <sys_ui_section caption="Quote Items" display_value="Quote Items" name="x_9006_srv_est_tl_quotes" sys_domain="global" view="Default view">9e8f31b20fb332009a954e9ce1050e18</sys_ui_section>
             <sys_updated_by>spulmano</sys_updated_by>
-            <sys_updated_on>2017-06-28 14:54:03</sys_updated_on>
+            <sys_updated_on>2017-07-10 14:19:45</sys_updated_on>
             <sys_user/>
-            <type/>
+            <type>list</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
-            <caption/>
+            <caption>Quote Items</caption>
             <header>false</header>
-            <name>x_9006_srv_est_tl_accounts</name>
+            <name>x_9006_srv_est_tl_quotes</name>
             <roles/>
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>spulmano</sys_created_by>
-            <sys_created_on>2017-06-28 14:54:03</sys_created_on>
+            <sys_created_on>2017-07-10 14:18:39</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>7b84dc830fa332009a954e9ce1050e4e</sys_id>
+            <sys_id>9e8f31b20fb332009a954e9ce1050e18</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>x_9006_srv_est_tl_accounts</sys_name>
+            <sys_name>Quote Items</sys_name>
             <sys_overrides/>
             <sys_package display_value="Services Estimation Tool" source="x_9006_srv_est_tl">033988030f2332009a954e9ce1050e3e</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Services Estimation Tool">033988030f2332009a954e9ce1050e3e</sys_scope>
-            <sys_update_name>sys_ui_section_7b84dc830fa332009a954e9ce1050e4e</sys_update_name>
+            <sys_update_name>sys_ui_section_9e8f31b20fb332009a954e9ce1050e18</sys_update_name>
             <sys_updated_by>spulmano</sys_updated_by>
-            <sys_updated_on>2017-06-28 14:54:03</sys_updated_on>
+            <sys_updated_on>2017-07-10 14:18:39</sys_updated_on>
             <sys_user/>
-            <title>true</title>
+            <title>false</title>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_section>

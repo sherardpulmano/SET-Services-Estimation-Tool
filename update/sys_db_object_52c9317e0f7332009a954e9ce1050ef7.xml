@@ -17,23 +17,23 @@
         <number_ref/>
         <provider_class/>
         <read_access>true</read_access>
-        <super_class/>
+        <super_class display_value="Company" name="core_company">be9ddb000f0032009a954e9ce1050e39</super_class>
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>
         <sys_created_by>spulmano</sys_created_by>
-        <sys_created_on>2017-06-28 14:51:04</sys_created_on>
+        <sys_created_on>2017-07-10 13:54:01</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>a0b350830fa332009a954e9ce1050e42</sys_id>
+        <sys_id>52c9317e0f7332009a954e9ce1050ef7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Accounts</sys_name>
         <sys_package display_value="Services Estimation Tool" source="x_9006_srv_est_tl">033988030f2332009a954e9ce1050e3e</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Services Estimation Tool">033988030f2332009a954e9ce1050e3e</sys_scope>
-        <sys_update_name>sys_db_object_a0b350830fa332009a954e9ce1050e42</sys_update_name>
+        <sys_update_name>sys_db_object_52c9317e0f7332009a954e9ce1050ef7</sys_update_name>
         <sys_updated_by>spulmano</sys_updated_by>
-        <sys_updated_on>2017-06-28 14:51:04</sys_updated_on>
+        <sys_updated_on>2017-07-10 13:54:01</sys_updated_on>
         <update_access>false</update_access>
         <user_role display_value="x_9006_srv_est_tl.accounts_user" name="x_9006_srv_est_tl.accounts_user">88e318030fa332009a954e9ce1050ea7</user_role>
         <ws_access>true</ws_access>

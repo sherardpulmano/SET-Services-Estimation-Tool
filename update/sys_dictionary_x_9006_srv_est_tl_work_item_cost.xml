@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="customer" table="x_9006_srv_est_tl_accounts">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="cost" table="x_9006_srv_est_tl_work_item">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
-
+	
 	// Add your code here
-	return '';  // return the calculated value
-
+	var cost = current.quote.rate_type * current.hours;
+	return parseFloat(cost);  // return the calculated value
+	
 })(current);]]></calculation>
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Customer</column_label>
+        <column_label>Cost</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -23,18 +24,18 @@
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>true</display>
+        <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>customer</element>
+        <element>cost</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Price">price</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
-        <name>x_9006_srv_est_tl_accounts</name>
+        <max_length>20</max_length>
+        <name>x_9006_srv_est_tl_work_item</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -51,25 +52,25 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>spulmano</sys_created_by>
-        <sys_created_on>2017-06-28 14:51:04</sys_created_on>
+        <sys_created_on>2017-07-07 18:23:40</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>d1b3548f0f6332009a954e9ce1050e0d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Customer</sys_name>
+        <sys_id>0adad3f10f7732009a954e9ce1050ecd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Cost</sys_name>
         <sys_package display_value="Services Estimation Tool" source="x_9006_srv_est_tl">033988030f2332009a954e9ce1050e3e</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Services Estimation Tool">033988030f2332009a954e9ce1050e3e</sys_scope>
-        <sys_update_name>sys_dictionary_x_9006_srv_est_tl_accounts_customer</sys_update_name>
+        <sys_update_name>sys_dictionary_x_9006_srv_est_tl_work_item_cost</sys_update_name>
         <sys_updated_by>spulmano</sys_updated_by>
-        <sys_updated_on>2017-06-28 14:55:54</sys_updated_on>
+        <sys_updated_on>2017-07-07 18:28:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
+        <virtual>true</virtual>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>

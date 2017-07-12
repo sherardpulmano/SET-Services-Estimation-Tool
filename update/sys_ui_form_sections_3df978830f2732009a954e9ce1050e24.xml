@@ -29,6 +29,20 @@
             <sys_updated_by>spulmano</sys_updated_by>
             <sys_updated_on>2017-06-30 17:14:12</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-07-10 14:18:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1e8f31b20fb332009a954e9ce1050e1a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_9006_srv_est_tl_quotes" name="x_9006_srv_est_tl_quotes" sys_domain="global" view="Default view">3df978830f2732009a954e9ce1050e24</sys_ui_form>
+            <sys_ui_section caption="Quote Items" display_value="Quote Items" name="x_9006_srv_est_tl_quotes" sys_domain="global" view="Default view">9e8f31b20fb332009a954e9ce1050e18</sys_ui_section>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-07-10 14:18:39</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_9006_srv_est_tl_quotes</name>
             <roles/>

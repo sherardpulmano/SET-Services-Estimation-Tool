@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Quote Items" max_length="40" name="x_9006_srv_est_tl_work_item" type="collection">
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;var cost = current.quote.rate_type * current.hours;&#13;&#10;&#9;return parseFloat(cost);  // return the calculated value&#13;&#10;&#9;&#13;&#10;})(current);" label="Cost" max_length="20" name="cost" type="price" virtual="true"/>
         <element attributes="edge_encryption_enabled=true" label="Custom Comments" max_length="4000" name="custom_comments" type="string"/>
         <element default="javascript: &#13;&#10;&#13;&#10;answer = current.name.hours;" label="Hours" max_length="40" name="hours" type="integer"/>
         <element attributes="ref_auto_completer=AJAXTableCompleter,ref_ac_columns=work_type;work_tool;hours,ref_ac_order_by=work_type" display="true" label="Item Name" max_length="40" name="name" reference="x_9006_srv_est_tl_work_type" type="reference"/>
