@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_user" label="Contacts" max_length="40" name="x_9006_srv_est_tl_contacts" type="collection">
+        <element label="Account" max_length="32" name="account" reference="x_9006_srv_est_tl_accounts" type="reference"/>
+        <element label="Primary" max_length="40" name="primary" type="boolean"/>
+        <index name="index">
+            <element name="account"/>
+        </index>
+    </element>
+</database>

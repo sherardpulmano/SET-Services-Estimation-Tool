@@ -6,7 +6,7 @@
             <element>rate_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Top</label>
+            <label>Standard</label>
             <language>en</language>
             <name>x_9006_srv_est_tl_quotes</name>
             <sequence>0</sequence>
@@ -15,9 +15,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>5d4db4070f2732009a954e9ce1050ee1</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>spulmano</sys_updated_by>
-            <sys_updated_on>2017-06-28 17:52:28</sys_updated_on>
+            <sys_updated_on>2017-07-14 12:36:21</sys_updated_on>
             <value>225</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -44,7 +44,7 @@
             <element>rate_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Normal</label>
+            <label>Discounted</label>
             <language>en</language>
             <name>x_9006_srv_est_tl_quotes</name>
             <sequence>2</sequence>
@@ -53,9 +53,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>114d78c70f2732009a954e9ce1050e20</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>spulmano</sys_updated_by>
-            <sys_updated_on>2017-06-28 17:52:40</sys_updated_on>
+            <sys_updated_on>2017-07-14 12:36:28</sys_updated_on>
             <value>175</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
